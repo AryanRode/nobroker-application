@@ -34,7 +34,7 @@ public class RegistrationController {
 
     }
 
-    //http://localhost:8080/api/register
+    //http://localhost:8080/api/verify-otp?email=&otp=
 
     @PostMapping("/verify-otp")
     public Map<String, String> verifyOtp(@RequestParam String email, @RequestParam String otp) {
